@@ -7,7 +7,7 @@ pipeline{
   		stage('SCM Checkout'){
 	 		steps {
             			script{
-     					git 'https://github.com/anikate-singhal/apptotestcid'
+     					git 'https://github.com/anikate-singhal/apptotestcid.git'
 		  			}
 	       			}
        		}
